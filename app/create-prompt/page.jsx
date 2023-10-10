@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 
-import Form from '@components/form';
+import Form from '@components/Form';
 import { set } from 'mongoose';
 
 const CreatePrompt = () => {
